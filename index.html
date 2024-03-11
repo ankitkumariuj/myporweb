@@ -5,6 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Ankit portfolio.ml</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <style>
   * {
@@ -26,6 +27,7 @@
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 23px;
     margin-left: 9px;
+    
   }
 
   #navbar {
@@ -211,7 +213,9 @@
     opacity: 0.8;
   }
 
-  
+  #hide{
+    display: none;
+  }
  
   .pr {
     font-size: 65px;
@@ -285,7 +289,9 @@
       margin-right: -61px;
       margin-top: -98px;
     }
-
+#hide{
+  display: none;
+}
     #navbar li {
       display: flex;
       flex-wrap: wrap;
@@ -403,14 +409,21 @@
     }
 
     #navbar ul {
-      margin-right: -579px;
+      display: inline-grid; 
+      background-color: rgb(243, 234, 241);
+      border: 2px solid black;
+      border-radius: 42px;
     }
 
     .para {
       display: inline;
       font-size: 72px;
     }
-
+#hide{
+  display: block;
+  margin-left: 41px;  
+  font-size: 67px;
+}
     .main img {
       height: 25rem;
       margin-left: 290px;
@@ -439,17 +452,17 @@
       flex-wrap: wrap;
       font-size: 50px;
       margin-left: 3px;
-
+      margin-top: 29px;
     }
 
-    #navbar ul {
-      margin-right: -708px;
-      background-color: rgb(233, 213, 231);
-    }
+    
+.main{
+  margin-top: 67px;
 
+}
     #pa2 {
       text-align: center;
-      font-size: 54px;
+      margin-right: 65px;
     }
 
     #p1 {
@@ -538,15 +551,62 @@
   margin-left: 273px;
     width: 765px;
 }
+#navbar{
+  display: none;
+}
+#con{
+  display: contents;
+  font-size: 73px;
+}
+#name{
+align-items: center;
+margin-left: 191px;
+font-size: 49px;
+width: 544px;
+height: 50px;
+margin-top: 11px;
+
+}
+#email{
+align-items: center;
+margin-left: 191px;
+font-size: 49px;
+width: 544px;
+height: 50px;
+margin-top: 19px;
+
+}
+#txtarea{
+margin-left: 191px;
+margin-top: 13px;
+width: 546px;
+height: 305px;
+}
+#sub1{
+  height: 66px;
+    width: 198px;
+    border-radius: 50px;
+    background-color:tomato ;
+    font-size: 23px;
+margin-left: 355px;
+margin-top: 13px;
+transition: 1s;
+}
+#sub1:hover{
+background-color: darkcyan;
+color: aliceblue;
+}
   }
 </style>
 
 <body>
   <div class="container">
-
+    <div>
+      <i class="fa fa-bars" id="hide" onclick="show()"></i>  
+  </div>
     <div id="navbar">
-      <p id="pa2">ANKIT PORTFOLIOS</p>
       <ul>
+        <p id="pa2">ANKIT PORTFOLIOS</p>
 
         <li><a href="#Home">Home</a></li>
         <li><a href="#About">About</a></li>
@@ -620,12 +680,34 @@
           </div>
 </section>
 
+<div id="contact">
+
+  <h1 id="con" >contact us</h1><br>
+  <input type="text" name="" id="name" placeholder="Enter your Name"/><br>
+  <input type="email" name="" id="email" placeholder="Entre your Email"/><br>
+  <textarea name="" id="txtarea" cols="30" rows="10"></textarea><br>
+  <input type="button" id="sub1" value="Submit">
+</div>
   <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
   <script>
     var typed = new Typed('#element', {
-      strings: ['HTML', 'CSS', 'C programming', 'Tailwind css'],
-      typeSpeed: 50,
+      strings: ['HTML', 'CSS', 'C programming', 'Tailwind css','Javascript'],
+      typeSpeed: 210, Infinity, 
     });
+
+    function show(){
+      var navbar = document.getElementById('navbar');
+      var hide = document.getElementById('hide');
+
+      document.getElementById('hide').style.color= 'black';
+      if(navbar.style.display!= 'none')
+      navbar.style.display = 'none';
+    
+     else{
+      navbar.style.display = 'block';
+      document.getElementById('hide').style.color= 'red';
+     }
+    }
   </script>
 </body>
 
