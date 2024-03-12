@@ -5,7 +5,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Ankit portfolio.ml</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+  
 </head>
 <style>
   * {
@@ -260,7 +261,7 @@
 }
 
   /*small screen media query in run the phone*/
-  @media screen and (max-width:1150px) {
+  @media screen and ( min-width: 1240px ) {
 
     body {
       background-color: rgb(222, 250, 17);
@@ -403,19 +404,19 @@
     filter: brightness(3px);
   }
 
-  @media screen and (max-width: 795px) {
+  @media screen and (max-width: 480px) {
     body {
       background-color: rgb(240, 232, 239);
     }
-#navbar{
-  height: 50px;
-}
+
     #navbar ul {
-      display: inline-grid; 
-      background-color: rgb(243, 234, 241);
-      border: 2px solid black;
-      border-radius: 42px;
-      margin-left: 765px;
+      display: inline-grid;
+    background-color: black;
+    border: 2px solid black;
+    width: 355px;
+    height: 857px;
+    color: white;
+    margin-left: 784px;
     }
 
     .para {
@@ -424,7 +425,7 @@
     }
 #hide{
   display: block;
-  margin-left: 621px;  
+  margin-left: 897px;  
   font-size: 67px;
 }
     .main img {
@@ -450,12 +451,13 @@
       height: 110px;
     }
 
-    #navbar li {
+    #navbar li a {
       display: flex;
       flex-wrap: wrap;
-      font-size: 55px;
+      font-size: 50px;
       margin-left: 3px;
-      margin-top: 59px;
+      margin-top: 22px;
+      color: white;
     }
 
     
@@ -463,9 +465,11 @@
   margin-top: 67px;
 
 }
-    #pa2 {
-      text-align: center;
-      margin-right: 65px;
+    .pa{
+      text-align: rigth;
+      margin-left: 9px;
+      font-size: 45px;
+      display: inline-block;
     }
 
     #p1 {
@@ -526,25 +530,25 @@
     .pr{
       display: block;
       text-align: center;
-      margin-left: 381px;
+      margin-left: -708px;
       padding-bottom: 49px;
       font-size: 64px;
     }
   .img1{
-    margin-left: -51px;
+    margin-left: -581px;
     height: 8rem;
     
   }
   .img2{
-   
+   margin-left: -405px;
     height: 8rem;
     
   }.img3{
-    margin-right: 21px;
+    margin-left: -248px;
     height: 9.68rem;
     
   }.img4{
-   
+   margin-left: -34px;
     height: 8rem;
     
   }
@@ -556,51 +560,96 @@
 }
 #navbar{
   display: none;
-  margin-left:566px;
+  margin-top: 26px;
+ 
 }
-#con{
-  display: contents;
-  font-size: 73px;
-}
-#name{
-align-items: center;
-margin-left: 191px;
-font-size: 49px;
-width: 544px;
-height: 50px;
-margin-top: 11px;
-
+#home{
+  display: block;
+  
 }
 #email{
-align-items: center;
-margin-left: 191px;
-font-size: 49px;
-width: 544px;
-height: 50px;
-margin-top: 19px;
-
-}
+  margin-left: -270px;
+    margin-top: 25px;
+    height: 101px;
+    width: 549px;
+    border-bottom: 2px solid red;
+    text-align: center;
+    transform: all 0.3s ease-in-out;
+          }
+          #email:hover{
+            border-bottom: 2px solid blue;
+          }
+          #pass{
+            margin-left: -270px;
+    margin-top: 25px;
+    height: 101px;
+    width: 549px;
+    border-bottom: 2px solid red;
+    text-align: center;
+    transform: all 0.3s ease-in-out;
+          }
+        #pass:hover{
+          border-bottom: 2px solid blue;
+         }
+        
+       .icon{
+        margin-top: -31px;
+    margin-left: -244px
+       }  
+          #submit{
+            margin-top: 44px;
+    margin-left: -235px;
+    height: 91px;
+    border: 2px solid black;
+    border-radius: 43px;
+    width: 483px;
+    color: white;
+    text-align: center;
+    background: tomato;
+    font-size: 38px;
+    transition: 0.54s;
+          }
+          #submit:hover{
+               color: black;
+               background: #20acc0;
+               border: 2px  solid blue;
+          }
+          .container1 h1{
+            margin-left: -465px;
+            display: flex;
+          }
+          .container1{
+      height: 463px;
+    width: 776px;
+      margin-left: 534px;
+      margin-top: 76px;    
+  box-shadow: #002d59; 
+    }
+    .input-box input{
+      background: transparent;
+      border: none;
+      outline: none;
+    }
 #txtarea{
-margin-left: 191px;
-margin-top: 13px;
-width: 546px;
-height: 305px;
+  height: 273px;
+    width: 549px;
+    margin-left: -265px;
+    margin-top: 56px;
 }
-#sub1{
-  height: 66px;
-    width: 198px;
-    border-radius: 50px;
-    background-color:tomato ;
-    font-size: 23px;
-margin-left: 355px;
-margin-top: 13px;
-transition: 1s;
+#reset{
+  font-size: 70px;
+    background-color: black;
+    color: white;
+    margin-left: 168px;
 }
-#sub1:hover{
-background-color: darkcyan;
-color: aliceblue;
+#About{
+  height: 344px;
+  width: 233px;
+  border: 2px solid red;
 }
+
   }
+
 </style>
 
 <body>
@@ -608,11 +657,11 @@ color: aliceblue;
     <div>
       <i class="fa fa-bars" id="hide" onclick="show()"></i>  
   </div>
+  <p class="pa">ANKIT PORTFOLIOS</p>
     <div id="navbar">
-      <ul>
-        <p id="pa2">ANKIT PORTFOLIOS</p>
-
-        <li><a href="#Home">Home</a></li>
+      <ul id="home">
+        <input type="reset" id="reset" onclick="reset()" value="x">
+        <li ><a href="#Home">Home</a></li>
         <li><a href="#About">About</a></li>
         <li><a href="#Social Media">Social Media</a></li>
         <li><a href="#Skill">Skill</a></li>
@@ -666,6 +715,20 @@ color: aliceblue;
         </li>
       </div>
     </section>
+    <div id="contact">
+    
+      <div class="container1">
+        <h1>CONTACT US</h1>
+        <form action ="" method="post">
+         <div class="input-box">
+           <input type="text" name="email" id="email" placeholder="Enter full name " >
+           <div class="icon"><i class="fas fa-user"></i></div><br>
+           <input type="email" name="password" id="pass" placeholder="Enter the Email "><br>
+           <div class="icon"><i class="fas fa-envelope"></i></div><br>
+           <textarea name="" id="txtarea" cols="30" rows="10" placeholder="Message"></textarea><br>
+         <input type="submit" name="login" value="LOGIN" id= "submit">
+           
+         </div>
     <section id="Social Media">
       <p class="pr">Social Media</p>
       <div class="link">
@@ -683,15 +746,10 @@ color: aliceblue;
             alt="" srcset=""></a>
           </div>
 </section>
+<section id="About">
 
-<div id="contact">
+  </section>
 
-  <h1 id="con" >contact us</h1><br>
-  <input type="text" name="" id="name" placeholder="Enter your Name"/><br>
-  <input type="email" name="" id="email" placeholder="Entre your Email"/><br>
-  <textarea name="" id="txtarea" cols="30" rows="10"></textarea><br>
-  <input type="button" id="sub1" value="Submit">
-</div>
   <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
   <script>
     var typed = new Typed('#element', {
@@ -712,6 +770,13 @@ color: aliceblue;
       document.getElementById('hide').style.color= 'red';
      }
     }
+
+ function reset(){
+  document.getElementById('home').style.display= 'none';
+  document.getElementById('reset').style.color= 'red';
+    
+
+}
   </script>
 </body>
 
