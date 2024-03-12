@@ -13,7 +13,9 @@
     margin: 0%;
     padding: 0%;
   }
-
+#page{
+  display: none;
+}
   #navbar li {
     display: flex;
     font-size: 29px;
@@ -42,7 +44,9 @@
     color: rgb(15, 9, 9);
     text-decoration: none;
   }
-
+reset{
+  display: none;
+}
   #navbar ul {
     display: flex;
     justify-content: end;
@@ -218,6 +222,7 @@
     display: none;
   }
  
+ 
   .pr {
     font-size: 65px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -261,14 +266,16 @@
 }
 
   /*small screen media query in run the phone*/
-  @media screen and ( min-width: 1240px ) {
+  @media screen and ( min-width: 1634px ) {
 
     body {
       background-color: rgb(222, 250, 17);
 
 
     }
-
+#page{
+  display: none;
+}
     #navbar {
       min-width: 300px;
       height: 0px;
@@ -398,71 +405,78 @@
   .bum {
     display: inline-flex;
   }
+  reset{
+    display: none;
+  }
 
   .cls1 #p1 {
     color: black;
     filter: brightness(3px);
   }
 
-  @media screen and (max-width: 365px) {
+
+  @media screen and (max-width: 366px) {
     body {
-      background-color: rgb(240, 232, 239);
       padding: 0px;
       margin: 0px;
+      
+      
     }
 
     #navbar ul {
       display: inline-grid;
     background-color: black;
     border: 2px solid black;
-    width: 519px;
-    height: 1074px;
+    width: 568px;
+    height: 1131px;
     color: white;
-    margin-left: 927px;
+    margin-left: 690px;
     }
 
     .para {
-      display: inline;
-      font-size: 34px;
+      display: inline-block;
+    font-size: 94px;
     }
 #hide{
   display: block;
-  margin-left: 1336px;  
-  font-size: 120px;
-  margin-top: 14px;
+    margin-left: 1136px;
+    font-size: 121px;
+ margin-top: 99px;
 }
     .main img {
-      height: 48rem;
-      margin-left: 290px;
-      margin-top: 200px;
+      height: 49rem;
+    margin-left: 126px;
+    margin-top: 200px
     }
 
     .btn {
       display: inline;
-      margin-top: 294px;
-      width: 574px;
-      height: 205px;
-      font-size: 66px;
-      margin-right: 224px;
-      border-radius: 108px;
+    margin-top: 294px;
+    width: 849px;
+    height: 199px;
+    font-size: 102px;
+    margin-right: 167px;
+    border-radius: 100px;
+    break-inside: initial;
+    margin-left: 203px;
     }
 
     .btn1 {
 
-      width: 614px;
-      margin-top: 294px;
-      margin-left: -61px;
-      height: 205px;
-      border-radius: 123px;
-      font-size: 66px;³
+      width: 850px;
+      margin-top: 172px;
+      margin-left: 205px;
+      height: 200px;
+      font-size: 102px;
+      border-radius: 100px;
     }
 
     #navbar li a {
       display: flex;
       flex-wrap: wrap;
-      font-size: 79px;
+      font-size: 104px;
       margin-left: 3px;
-      margin-top: 110px;
+      margin-top: 22px;
       color: white;
     }
 
@@ -473,15 +487,15 @@
 }
     .pa{
       text-align: rigth;
-      margin-left: 25px;
-      font-size: 83px;
-      display: inline-block;
-      margin-top: -99px;
+      margin-left: 419px;
+    font-size: 85px;
+    display: block;
+    margin-top: -136px;
     }
 
     #p1 {
       color: black;
-      font-size: 69px;
+      font-size: 99px;
       font-weight: lighter;
     }
 
@@ -492,41 +506,46 @@
     }
 
     .cls1 {
-      margin-left: 49px;
-      align-items: center;
-      background-size: 534px 531px;
+      margin-left: 122px;
+    align-items: center;
+    background-size: 770px 902px;
     }
 
     .cls2 {
-      margin-left: 49px;
+      margin-left: 107px;
     }
 
     .cls3 {
-      margin-left: 49px;
+          margin-left: 107px;
 
     }
 
     .cls4 {
-      margin-left: 49px;
+          margin-left: 107px;
     }
 
     #skill li {
+      margin-top: 115px;
       align-items: center;
-      min-width: 615px;
-      height: 865px;
-      text-align: center;
-      border: 3px solid rgb(246, 196, 46);
-      color: rgb(5, 14, 1);
+      min-width: 910px;
+    height: 1288px;
+    border: 3px solid rgb(246, 196, 46);
+    color: rgb(5, 14, 1);
     }
 
     .main h1 {
-      display: inline;
-      font-size: 143px;
+      display: table-cell;
+    font-size: 155px;
+    }
+
+    blockquote {
+    font-size: 136px;
+    margin-left: 428px;
     }
 
     #element {
-      font-size: 60px;
-      display: inline;
+      font-size: 184px;
+    display: contents;
     }
     #link img{
       margin-top: 67px;
@@ -562,8 +581,8 @@
   .link{
     display: flex;
     border: 2px solid rgb(243, 234, 241);
-  margin-left: 273px;
-    width: 765px;
+
+    width: 0px;
 }
 #navbar{
   display: none;
@@ -575,24 +594,26 @@
   
 }
 #email{
-  margin-left: -270px;
-    margin-top: 25px;
-    height: 101px;
-    width: 549px;
-    border-bottom: 2px solid red;
+  margin-left: -403px;
+    margin-top: 69px;
+    height: 156px;
+    width: 1077px;
+    border-bottom: 4px solid red;
     text-align: center;
+    font-size: 64px;
     transform: all 0.3s ease-in-out;
           }
           #email:hover{
             border-bottom: 2px solid blue;
           }
           #pass{
-            margin-left: -270px;
-    margin-top: 25px;
-    height: 101px;
-    width: 549px;
-    border-bottom: 2px solid red;
+            margin-left: -403px;
+    margin-top: 69px;
+    height: 156px;
+    width: 1077px;
+    border-bottom: 4px solid red;
     text-align: center;
+    font-size: 64px;
     transform: all 0.3s ease-in-out;
           }
         #pass:hover{
@@ -600,20 +621,28 @@
          }
         
        .icon{
-        margin-top: -31px;
-    margin-left: -244px
+        margin-top: -120px;
+    margin-left: -394px;
+    font-size: 90px;
+  
+       }  
+       .icon1{
+        margin-top: -120px;
+    margin-left: -394px;
+    font-size: 90px;
+  
        }  
           #submit{
-            margin-top: 44px;
-    margin-left: -235px;
-    height: 91px;
+            margin-top: 82px;
+    margin-left: -170px;
+    height: 183px;
     border: 2px solid black;
-    border-radius: 43px;
-    width: 483px;
+    border-radius: 125px;
+    width: 627px;
     color: white;
     text-align: center;
     background: tomato;
-    font-size: 38px;
+    font-size: 93px;
     transition: 0.54s;
           }
           #submit:hover{
@@ -621,9 +650,11 @@
                background: #20acc0;
                border: 2px  solid blue;
           }
-          .container1 h1{
-            margin-left: -465px;
+          .container1 h2{
+            margin-left: -254px;
             display: flex;
+            font-size: 112px;
+    margin-top: 119px;
           }
           .container1{
       height: 463px;
@@ -638,21 +669,38 @@
       outline: none;
     }
 #txtarea{
-  height: 273px;
-    width: 549px;
-    margin-left: -265px;
-    margin-top: 56px;
+  height: 566px;
+    width: 1110px;
+    margin-left: -402px;
+    margin-top: 151px;
+    font-size: 64px;
 }
 #reset{
-  font-size: 105px;
+  font-size: 115px;
     background-color: black;
     color: white;
-    margin-left: 192px;
+    margin-left: 398px;
+}
+h2{
+    margin-bottom: 74px;
 }
 #About{
   height: 344px;
   width: 233px;
   border: 2px solid red;
+}
+hr{
+  width: 1167px;
+font-size: 90px;
+color: #10191b;
+}
+
+#page{
+  display: block;
+  font-size: 89px;
+  margin-left: 61px;
+  margin-top:-96px;
+  position: fixed;
 }
 
   }
@@ -663,8 +711,9 @@
   <div class="container">
     <div>
       <i class="fa fa-bars" id="hide" onclick="show()"></i>  
-  </div>
-  <p class="pa">ANKIT PORTFOLIOS</p>
+    <a href="#Home" > <i class="fa fa-home" id="page" ></i> </a>
+    </div>
+    <p class="pa">ANKIT PORTFOLIOS</p>
     <div id="navbar">
       <ul id="home">
         <input type="reset" id="reset" onclick="reset()" value="x">
@@ -677,6 +726,7 @@
 
 
     </div>
+    <section id="Home">
     <div class="main">
       <h1>Hi There,<br>
         I'm <strong>Ankit kumar</strong> </h1>
@@ -693,29 +743,30 @@
 
     <div class="bum">
       <button class="btn">
-        contact us </button><br>
+        contact us </button>
+      </div>
       <a href="https://github.com/Ankity1286/ankit-yadav/watchers"> <button class="btn1"> visit Github</button> </a>
-    </div>
     <hr>
+  </section>
     <section id="Skill">
       <blockquote>Skill</blockquote>
       <div id="skill">
-        <li class="cls1">HTML
+        <li class="cls1"><h2>HTML</h2>
           <P id="p1">I can study the HTML Language in online study
             on youtube.<br>Channel Name : Codewithharry youtube channel
           </P>
 
         </li>
-        <li class="cls2">CSS
+        <li class="cls2"><h2>CSS</h2>
           <P id="p1">I can study the CSS Language in online study
             on youtube.<br>Channel Name : Codewithharry youtube channel
           </P>
         </li>
-        <li class="cls3">C PROGRAMM
+        <li class="cls3"><h2>C PROGRAMM</h2>
           <P id="p1">I can be study that ,if C programmming Language then university on second sem<br>
           </P>
         </li>
-        <li class="cls4">TAILWIND CSS
+        <li class="cls4"><h2>TAILWIND CSS</h2>
           <P id="p1">I can study the Tailwind css in online study
             on youtube.<br>Channel Name : Codewithharry youtube channel
           </P>
@@ -725,13 +776,13 @@
     <div id="contact">
     
       <div class="container1">
-        <h1>CONTACT US</h1>
+        <h2>CONTACT US</h2>
         <form action ="" method="post">
          <div class="input-box">
            <input type="text" name="email" id="email" placeholder="Enter full name " >
            <div class="icon"><i class="fas fa-user"></i></div><br>
            <input type="email" name="password" id="pass" placeholder="Enter the Email "><br>
-           <div class="icon"><i class="fas fa-envelope"></i></div><br>
+           <div class="icon1"><i class="fas fa-envelope"></i></div><br>
            <textarea name="" id="txtarea" cols="30" rows="10" placeholder="Message"></textarea><br>
          <input type="submit" name="login" value="LOGIN" id= "submit">
            
@@ -787,4 +838,4 @@
   </script>
 </body>
 
-</html>
+  </html>
