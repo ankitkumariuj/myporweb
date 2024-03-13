@@ -265,162 +265,16 @@ reset{
   border-radius: 67px;
 }
 
-  /*small screen media query in run the phone*/
-  @media screen and ( min-width: 1634px ) {
-
-    body {
-      background-color: rgb(222, 250, 17);
+  
 
 
-    }
-#page{
-  display: none;
-}
-    #navbar {
-      min-width: 300px;
-      height: 0px;
-      margin-bottom: 185px;
-      background-color: rgb(243, 234, 241);
-    }
-
-    #pa2 {
-      color: black;
-      font-size: 21px;
-      margin-top: 2px;
-      text-align: center;
-      margin-bottom: 34px;
-
-    }
-
-    #navbar ul {
-
-      margin-right: -61px;
-      margin-top: -98px;
-    }
-#hide{
-  display: none;
-}
-    #navbar li {
-      display: flex;
-      flex-wrap: wrap;
-      font-size: 44px;
-      margin-top: 77px;
-      margin-left: 9px;
-    }
-
-    .main {
-      margin-left: 31px;
-    }
-
-    .main h1 {
-      display: inline;
-      font-size: 38px;
-
-    }
-
-    #element {
-      font-size: 30px;
-    }
-
-    .para {
-      font-size: 25px;
-      color: rgb(6, 35, 89);
-      margin-left: 27px;
-      padding-bottom: 126px;
-    }
-
-    .main img {
-      height: 16rem;
-      margin-left: 649px;
-      margin-top: -95px;
-
-    }
-
-    strong,
-    h1 {
-      display: inline;
-
-    }
-
-    #p1 {
-      color: rgb(6, 2, 2);
-
-    }
-
-    .btn {
-      display: inline;
-      margin-top: 94px;
-      width: 185px;
-      height: 79px;
-      font-size: 34px;
-      margin-right: 242px;
-    }
-
-    .btn1 {
-
-      width: 185px;
-      margin-top: 94px;
-      margin-left: 2px;
-      height: 79px;
-    }
-
-    hr {
-      margin-top: 107px;
-      width: 773px;
-
-    }
-  }
-
-  #skill li {
-    border-radius: 40px;
-
-
-  }
-
-
-  blockquote {
-    font-size: 60px;
-    margin-left: 350px;
-
-  }
-
-  .cls1 {
-    margin-top: 22px;
-    background-size: 307px 437px;
-  }
-
-  .cls2 {
-    margin-top: 22px;
-  }
-
-  .cls3 {
-    margin-top: 22px;
-
-  }
-
-  .cls4 {
-    margin-top: 22px;
-  }
-
-  .bum {
-    display: inline-flex;
-  }
-  reset{
-    display: none;
-  }
-
-  .cls1 #p1 {
-    color: black;
-    filter: brightness(3px);
-  }
-
-
-  @media (min-width: 250px) and (max-width: 980px) {
+  @media  (min-width: 250px) and (max-width: 980px) {
   body {
       padding: 0px;
       margin: 0px;
-      
-      
+      display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
     }
 
     #navbar ul {
@@ -702,18 +556,23 @@ color: #10191b;
   margin-top:-96px;
   position: fixed;
 }
-
+.nav2{
+  position: fixed;
+  heigth: 35px;
+  background-color: red;
+}
   }
 
 </style>
 
 <body>
   <div class="container">
-    <div>
+    <div class= "nav2">
       <i class="fa fa-bars" id="hide" onclick="show()"></i>  
     <a href="#Home" > <i class="fa fa-home" id="page" ></i> </a>
-    </div>
+      <br>
     <p class="pa">ANKIT PORTFOLIOS</p>
+    </div>
     <div id="navbar">
       <ul id="home">
         <input type="reset" id="reset" onclick="reset()" value="x">
