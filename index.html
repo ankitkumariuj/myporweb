@@ -617,7 +617,9 @@ form{
   display: none;
   margin-top: 92px;
 }
-
+#navbar{
+  display: none;
+}
 .rt{
   margin-top: 885px;
 }
@@ -710,7 +712,7 @@ form{
       var hide = document.getElementById('hide');
 
       document.getElementById('hide').style.color= 'black';
-      if(navbar.style.display!= 'none')
+      if(navbar.style.display== 'block')
       navbar.style.display = 'none';
     
      else{
