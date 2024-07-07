@@ -12,7 +12,12 @@
     padding: 0%;
     
   }
-
+  body{
+    overflow-x: none;
+  }
+html{
+  width: -1px;
+}
   #navbar li {
     display: inline;
     font-size: 31px;
@@ -213,6 +218,7 @@ reset{
   body {
     background-color: rgb(240, 232, 239);
       margin: 0;
+      overflow-x: hidden;
       padding: 0;
   }
 
@@ -470,6 +476,7 @@ height: 81px;
     *{
       margin: 0%;
       padding: 0%;
+      overflow-x: hidden;
     }
    #contact input{
     flex-direction: row;
@@ -503,16 +510,26 @@ height: 81px;
     display: none;
 }
     .about__img img{
-      height: 242px;
-    width: 377px;
+      height: 238px;
+      width: 316px;
     position: absolute;
     border: 4px solid black;
-    margin-left: 20px;
+    margin-left: 0px;
     margin-top: 37px;
     cursor: pointer;
     transition: all 1s ease-in-out;
 }
-    
+  .project{
+    width: 291px;
+    text-align: center;
+    background: cornflowerblue;
+    padding: 26px 15px;
+    margin-bottom: 30px;
+    border-radius: 35px;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-left: 29px;
+  }  
       .topnav #myLinks {
         display: none;
       }
@@ -531,7 +548,7 @@ height: 81px;
         background:rgb(247, 184, 238);
         display: block;
         position: absolute;
-        right: 35px;
+        right: 15px;
         top: 0;
       }
       
@@ -553,8 +570,9 @@ height: 81px;
 
     .para {
       display: inline-block;
-    font-size: 2.99rem;
-    margin: auto -34px 0px;
+        font-size: 25px;
+        margin: auto 0px 0px;
+    }
 
     }
     .bum {
@@ -575,7 +593,7 @@ height: 81px;
    
 .main img {
   height: 15rem;
-    margin: 88px -24px auto;
+    margin: 88px 0px auto;
     }
 
 #element{
@@ -618,8 +636,9 @@ height: 81px;
 .team{
   display: flex;
     margin-top: 181px;
-    flex-direction: column;
     margin-left: 0px;
+    flex-wrap: wrap;
+    flex-direction: row;
 }
     .nav2{
       background-color: #e3bee1;
@@ -661,11 +680,11 @@ height: 81px;
     flex-direction: column;
     flex-wrap: wrap;
     font-size: 36px;
-    margin: auto -34px 0px;
+    margin: auto 0px 0px;
     
 
     #element {
-      font-size: 184px;
+      font-size: 44px;
     display: contents;
     }
     #link img{
@@ -758,10 +777,10 @@ margin-top: -88px;
 form{
   margin-right: 78px;
 }
-html{
-      width: 467px;
-}
 
+html{
+  width: 467px;
+}
 .rt{
   margin-top: 885px;
 }
@@ -783,7 +802,7 @@ footer p{
     margin-top: 23px;
     font-size: 20px;
 }
-  }
+
     }
   
 </style>
